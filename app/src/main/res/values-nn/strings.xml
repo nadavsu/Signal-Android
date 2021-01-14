@@ -198,8 +198,8 @@
   <string name="ConversationItem_this_message_was_deleted">Meldinga er sletta.</string>
   <string name="ConversationItem_you_deleted_this_message">Du har sletta denne meldinga.</string>
   <!--ConversationActivity-->
-  <string name="ConversationActivity_reset_secure_session_question">Vil du tilbakestilla sikker økt?</string>
-  <string name="ConversationActivity_this_may_help_if_youre_having_encryption_problems">Dette kan hjelpa viss du har krypteringsproblem med samtalen. Meldingane dine vert ikkje fjerna.</string>
+  <!-- Removed by excludeNonTranslatables <string name="ConversationActivity_reset_secure_session_question">Vil du tilbakestilla sikker økt?</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="ConversationActivity_this_may_help_if_youre_having_encryption_problems">Dette kan hjelpa viss du har krypteringsproblem med samtalen. Meldingane dine vert ikkje fjerna.</string> -->
   <string name="ConversationActivity_reset">Tilbakestill</string>
   <string name="ConversationActivity_add_attachment">Legg til vedlegg</string>
   <string name="ConversationActivity_select_contact_info">Vel kontaktinformasjon</string>
@@ -1310,8 +1310,10 @@ Viss du ikkje er ein avansert brukar, ikkje køyrer ein sjølvinstallert Android
   <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Ta personvernet ditt med deg.
 Ver deg sjølv i kvar einaste melding.</string>
   <string name="RegistrationActivity_enter_your_phone_number_to_get_started">Skriv inn telefonnummeret ditt for å komma i gang</string>
+  <string name="RegistrationActivity_enter_your_phone_number">Skriv inn telefonnummeret ditt</string>
   <string name="RegistrationActivity_you_will_receive_a_verification_code">Du vil få ei stadfestingskode. Operatøren din kan ta betalt for meldinga.</string>
   <string name="RegistrationActivity_enter_the_code_we_sent_to_s">Skriv inn koden me sende til %s</string>
+  <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">Pass på at telefonen din har mobilsignal for å motta SMS eller ringa</string>
   <string name="RegistrationActivity_phone_number_description">Telefonnummer</string>
   <string name="RegistrationActivity_country_code_description">Landkode</string>
   <string name="RegistrationActivity_call">Ring</string>
@@ -1457,6 +1459,10 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="UsernameEditFragment_username_is_invalid">Brukarnamnet er ugyldig.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Brukarnamn må vera mellom %1$d og %2$d teikn lange.</string>
   <string name="UsernameEditFragment_usernames_on_signal_are_optional">Brukarnamn er valfrie på Signal. Viss du vil laga eit brukarnamn, så kan andre Signal-brukarar finna deg med dette og kontakta deg utan å kjenna til telefonnummeret ditt.</string>
+  <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
+    <item quantity="one">%d kontakt er på Signal!</item>
+    <item quantity="other">%d kontaktar er på Signal!</item>
+  </plurals>
   <!--VerifyIdentityActivity-->
   <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Kontakten din køyrer ein gammal versjon av Signal. Ver venleg og be dei om å oppdatera før du stadfestar tryggleiksnummeret ditt.</string>
   <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Kontakten din køyrer ein nyare versjon av Signal med eit inkompatibelt QR-kodeformat. Ver venleg og oppdater for å samanlikna.</string>
@@ -1471,7 +1477,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <!--ViewOnceMessageActivity-->
   <!--AudioView-->
   <!--MessageDisplayHelper-->
-  <string name="MessageDisplayHelper_bad_encrypted_message">Dårleg kryptert melding</string>
+  <!-- Removed by excludeNonTranslatables <string name="MessageDisplayHelper_bad_encrypted_message">Dårleg kryptert melding</string> -->
   <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Melding kryptert for ei økt som ikkje finst</string>
   <!--MmsMessageRecord-->
   <string name="MmsMessageRecord_bad_encrypted_mms_message">Dårleg kryptert MMS-melding</string>
@@ -2023,7 +2029,7 @@ Ved registrering sender me litt kontaktinformasjon til tenaren. Informasjonen ve
   <string name="preferences__mmsc_password">MMSC-passord</string>
   <string name="preferences__sms_delivery_reports">SMS-leveringsrapportar </string>
   <string name="preferences__request_a_delivery_report_for_each_sms_message_you_send">Be om leveringsrapport når du sender SMS</string>
-  <string name="preferences__chats">Samtalar og media</string>
+  <!-- Removed by excludeNonTranslatables <string name="preferences__chats">Samtalar og media</string> -->
   <string name="preferences__storage">Lagring</string>
   <string name="preferences__conversation_length_limit">Lengdgrense for samtalar</string>
   <string name="preferences__keep_messages">Spar på meldingar</string>
@@ -2570,8 +2576,8 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="CallParticipantsListUpdatePopupWindow__s_and_s_left">%1$s og %2$s la på</string>
   <string name="CallParticipantsListUpdatePopupWindow__s_s_and_s_left">%1$s, %2$s og %3$s la på</string>
   <string name="CallParticipantsListUpdatePopupWindow__s_s_and_d_others_left">%1$s, %2$s og %3$d til la på</string>
-  <string name="CallParticipantsListUpdatePopupWindow__you_on_another_device">Du (på ei anna eining)</string>
-  <string name="CallParticipantsListUpdatePopupWindow__s_on_another_device">%1$s (på ei anna eining)</string>
+  <!-- Removed by excludeNonTranslatables <string name="CallParticipantsListUpdatePopupWindow__you_on_another_device">Du (på ei anna eining)</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="CallParticipantsListUpdatePopupWindow__s_on_another_device">%1$s (på ei anna eining)</string> -->
   <!--DeleteAccountFragment-->
   <string name="DeleteAccountFragment__deleting_your_account_will">Om du slettar kontoen din vil du:</string>
   <string name="DeleteAccountFragment__enter_your_phone_number">Skriv inn telefonnummeret ditt</string>

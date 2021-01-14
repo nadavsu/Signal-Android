@@ -198,8 +198,8 @@
   <string name="ConversationItem_this_message_was_deleted">Diese Nachricht wurde gelöscht.</string>
   <string name="ConversationItem_you_deleted_this_message">Du hast diese Nachricht gelöscht.</string>
   <!--ConversationActivity-->
-  <string name="ConversationActivity_reset_secure_session_question">Verschlüsselung neu starten?</string>
-  <string name="ConversationActivity_this_may_help_if_youre_having_encryption_problems">Hilfreich bei Problemen mit der Verschlüsselung in dieser Unterhaltung. Deine Nachrichten bleiben erhalten.</string>
+  <!-- Removed by excludeNonTranslatables <string name="ConversationActivity_reset_secure_session_question">Verschlüsselung neu starten?</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="ConversationActivity_this_may_help_if_youre_having_encryption_problems">Hilfreich bei Problemen mit der Verschlüsselung in dieser Unterhaltung. Deine Nachrichten bleiben erhalten.</string> -->
   <string name="ConversationActivity_reset">Neu starten</string>
   <string name="ConversationActivity_add_attachment">Anhang hinzufügen</string>
   <string name="ConversationActivity_select_contact_info">Kontaktinfo wählen</string>
@@ -770,7 +770,7 @@
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Gruppen-Link ist ungültig</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">Freunde einladen</string>
-  <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_share_a_link_with_friends_to_let_them_quickly_join_this_group">Teile eine Link mit Freunden, damit sie dieser Gruppe einfacher beitreten können.</string>
+  <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_share_a_link_with_friends_to_let_them_quickly_join_this_group">Teile einen Link mit Freunden, damit sie dieser Gruppe einfach beitreten können.</string>
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_enable_and_share_link">Link aktivieren und teilen</string>
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_share_link">Link teilen</string>
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_unable_to_enable_group_link_please_try_again_later">Gruppen-Link kann nicht aktiviert werden. Bitte versuche es später erneut.</string>
@@ -1296,8 +1296,10 @@
   <string name="RegistrationActivity_continue_last_attempt">Fortfahren (letzter Versuch!)</string>
   <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Nimm Privatsphäre mit dir.\nSei du selbst in jeder Nachricht.</string>
   <string name="RegistrationActivity_enter_your_phone_number_to_get_started">Gib deine Rufnummer ein, um zu beginnen</string>
+  <string name="RegistrationActivity_enter_your_phone_number">Gib deine Rufnummer ein</string>
   <string name="RegistrationActivity_you_will_receive_a_verification_code">Du wirst einen Verifikationscode erhalten. Dabei können Mobilfunkgebühren anfallen.</string>
   <string name="RegistrationActivity_enter_the_code_we_sent_to_s">Gib den Code ein, den wir an %s gesendet haben</string>
+  <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">Sorge für den Empfang deiner SMS oder deines Anrufs dafür, dass dein Telefon Mobilfunkempfang hat.</string>
   <string name="RegistrationActivity_phone_number_description">Rufnummer</string>
   <string name="RegistrationActivity_country_code_description">Landesvorwahl</string>
   <string name="RegistrationActivity_call">Mich anrufen</string>
@@ -1442,6 +1444,10 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="UsernameEditFragment_username_is_invalid">Nutzername ist ungültig.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Nutzernamen dürfen aus %1$d bis %2$d Zeichen bestehen.</string>
   <string name="UsernameEditFragment_usernames_on_signal_are_optional">Nutzernamen sind bei Signal optional. Falls du dich dafür entscheidest, einen Nutzernamen zu erstellen, werden andere Nutzer dich über diesen finden und kontaktieren können, ohne deine Rufnummer zu kennen.</string>
+  <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
+    <item quantity="one">%d Kontakt ist bei Signal!</item>
+    <item quantity="other">%d Kontakte sind bei Signal!</item>
+  </plurals>
   <!--VerifyIdentityActivity-->
   <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Dein Kontakt verwendet eine alte Signal-Version. Bitte ihn, Signal zu aktualisieren, bevor ihr eure Sicherheitsnummer verifiziert.</string>
   <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Dein Kontakt verwendet eine neuere Signal-Version mit einem inkompatiblen QR-Code-Format. Zum Vergleichen bitte aktualisieren.</string>
@@ -1456,7 +1462,7 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <!--ViewOnceMessageActivity-->
   <!--AudioView-->
   <!--MessageDisplayHelper-->
-  <string name="MessageDisplayHelper_bad_encrypted_message">Fehlerhaft verschlüsselte Nachricht</string>
+  <!-- Removed by excludeNonTranslatables <string name="MessageDisplayHelper_bad_encrypted_message">Fehlerhaft verschlüsselte Nachricht</string> -->
   <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Nachricht wurde für eine nicht bestehende sichere Sitzung verschlüsselt</string>
   <!--MmsMessageRecord-->
   <string name="MmsMessageRecord_bad_encrypted_mms_message">Fehlerhaft verschlüsselte MMS</string>
@@ -2006,7 +2012,7 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="preferences__mmsc_password">MMSC-Passwort</string>
   <string name="preferences__sms_delivery_reports">SMS-Zustellberichte</string>
   <string name="preferences__request_a_delivery_report_for_each_sms_message_you_send">Zustellbericht für jede gesendete SMS anfordern</string>
-  <string name="preferences__chats">Unterhaltungen und Medieninhalte</string>
+  <!-- Removed by excludeNonTranslatables <string name="preferences__chats">Unterhaltungen und Medieninhalte</string> -->
   <string name="preferences__storage">Speicher</string>
   <string name="preferences__conversation_length_limit">Höchstzahl an Nachrichten</string>
   <string name="preferences__keep_messages">Nachrichten behalten</string>
@@ -2550,8 +2556,8 @@ Schlüsselaustausch-Nachricht für eine ungültige Protokollversion empfangen</s
   <string name="CallParticipantsListUpdatePopupWindow__s_and_s_left">%1$s und %2$s sind ausgetreten</string>
   <string name="CallParticipantsListUpdatePopupWindow__s_s_and_s_left">%1$s, %2$s und %3$s sind ausgetreten</string>
   <string name="CallParticipantsListUpdatePopupWindow__s_s_and_d_others_left">%1$s, %2$s und %3$d Weitere sind ausgetreten</string>
-  <string name="CallParticipantsListUpdatePopupWindow__you_on_another_device">Du (auf einem anderen Gerät)</string>
-  <string name="CallParticipantsListUpdatePopupWindow__s_on_another_device">%1$s (auf einem anderen Gerät)</string>
+  <!-- Removed by excludeNonTranslatables <string name="CallParticipantsListUpdatePopupWindow__you_on_another_device">Du (auf einem anderen Gerät)</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="CallParticipantsListUpdatePopupWindow__s_on_another_device">%1$s (auf einem anderen Gerät)</string> -->
   <!--DeleteAccountFragment-->
   <string name="DeleteAccountFragment__deleting_your_account_will">Das Löschen deines Nutzerkontos wird:</string>
   <string name="DeleteAccountFragment__enter_your_phone_number">Gib deine Rufnummer ein</string>

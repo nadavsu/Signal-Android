@@ -195,8 +195,8 @@
   <string name="ConversationItem_this_message_was_deleted">此訊息已被刪除。</string>
   <string name="ConversationItem_you_deleted_this_message">你已刪除此訊息。</string>
   <!--ConversationActivity-->
-  <string name="ConversationActivity_reset_secure_session_question">重設安全對話？</string>
-  <string name="ConversationActivity_this_may_help_if_youre_having_encryption_problems">該選項將會有助於解決您在對話中遇到的加密問題。您的訊息將被保留。</string>
+  <!-- Removed by excludeNonTranslatables <string name="ConversationActivity_reset_secure_session_question">重設安全對話？</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="ConversationActivity_this_may_help_if_youre_having_encryption_problems">該選項將會有助於解決您在對話中遇到的加密問題。您的訊息將被保留。</string> -->
   <string name="ConversationActivity_reset">重設</string>
   <string name="ConversationActivity_add_attachment">新增附檔</string>
   <string name="ConversationActivity_select_contact_info">選擇聯絡人資訊</string>
@@ -1236,8 +1236,10 @@
   <string name="RegistrationActivity_continue_last_attempt">繼續(最後一次嘗試! )</string>
   <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">保護你的隱私權。\n在每個訊息中做你自己。</string>
   <string name="RegistrationActivity_enter_your_phone_number_to_get_started">輸入你的電話號碼即可開始使用。</string>
+  <string name="RegistrationActivity_enter_your_phone_number">輸入你的電話號碼</string>
   <string name="RegistrationActivity_you_will_receive_a_verification_code">你將收到驗證碼。各電信公司的收費費率可能有所不同。</string>
   <string name="RegistrationActivity_enter_the_code_we_sent_to_s">輸入我們傳送給 %s 的驗證碼</string>
+  <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">確保你的手機具有電信訊號以接收你的SMS或電話</string>
   <string name="RegistrationActivity_phone_number_description">電話號碼</string>
   <string name="RegistrationActivity_country_code_description">國碼</string>
   <string name="RegistrationActivity_call">撥打</string>
@@ -1384,6 +1386,9 @@
   <string name="UsernameEditFragment_username_is_invalid">使用者名稱無效。</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">使用者名稱長度必須介乎 %1$d 和 %2$d個字元。</string>
   <string name="UsernameEditFragment_usernames_on_signal_are_optional">Signal上的使用者名稱是可選的。 如果你選擇建立使用者名稱，則其他Signal使用者可以透過該用使用者名找到你，並在不知道你的電話號碼的情況下與你聯絡。</string>
+  <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
+    <item quantity="other">有%d個聯絡人使用Signal</item>
+  </plurals>
   <!--VerifyIdentityActivity-->
   <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">您的聯絡人使用的是舊版本的 Signal。在驗證您的安全碼前請尋求對方先進行更新。</string>
   <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">您的聯絡人正使用較新版本的 Signal，QR 碼格式並不相容。請升級以作比對。</string>
@@ -1398,7 +1403,7 @@
   <!--ViewOnceMessageActivity-->
   <!--AudioView-->
   <!--MessageDisplayHelper-->
-  <string name="MessageDisplayHelper_bad_encrypted_message">損毀的加密訊息</string>
+  <!-- Removed by excludeNonTranslatables <string name="MessageDisplayHelper_bad_encrypted_message">損毀的加密訊息</string> -->
   <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">此加密訊息的對話已不存在</string>
   <!--MmsMessageRecord-->
   <string name="MmsMessageRecord_bad_encrypted_mms_message">損毀的加密多媒體訊息</string>
@@ -1937,7 +1942,7 @@
   <string name="preferences__mmsc_password">MMSC 密碼</string>
   <string name="preferences__sms_delivery_reports">手機簡訊傳送狀態報告</string>
   <string name="preferences__request_a_delivery_report_for_each_sms_message_you_send">針對每則手機簡訊都要求回覆傳送報告</string>
-  <string name="preferences__chats">聊天與媒體</string>
+  <!-- Removed by excludeNonTranslatables <string name="preferences__chats">聊天與媒體</string> -->
   <string name="preferences__storage">儲存空間</string>
   <string name="preferences__conversation_length_limit">對話群組長度上限</string>
   <string name="preferences__keep_messages">保留訊息</string>
@@ -2472,8 +2477,8 @@
   <string name="CallParticipantsListUpdatePopupWindow__s_and_s_left">%1$s 和 %2$s 已離開</string>
   <string name="CallParticipantsListUpdatePopupWindow__s_s_and_s_left">%1$s, %2$s 和 %3$s 已離開</string>
   <string name="CallParticipantsListUpdatePopupWindow__s_s_and_d_others_left">%1$s, %2$s 和 %3$d 及其他人已離開</string>
-  <string name="CallParticipantsListUpdatePopupWindow__you_on_another_device">你 (在其他的裝置上)</string>
-  <string name="CallParticipantsListUpdatePopupWindow__s_on_another_device">%1$s (在另一台裝置上)</string>
+  <!-- Removed by excludeNonTranslatables <string name="CallParticipantsListUpdatePopupWindow__you_on_another_device">你 (在其他的裝置上)</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="CallParticipantsListUpdatePopupWindow__s_on_another_device">%1$s (在另一台裝置上)</string> -->
   <!--DeleteAccountFragment-->
   <string name="DeleteAccountFragment__deleting_your_account_will">刪除你的帳戶將：</string>
   <string name="DeleteAccountFragment__enter_your_phone_number">輸入你的電話號碼</string>
